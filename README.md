@@ -26,15 +26,15 @@ The scenario runs once a day on a schedule.
 
 **The scenario in Make**
 
-![Make scenario](screenshots/scenario.png)
+![Make scenario](scenario.png)
 
 **Job tracker in Google Sheets**
 
-![Google Sheets tracker](screenshots/sheet.png)
+![Google Sheets tracker](sheet.png)
 
 **Telegram alert for a high-match job**
 
-![Telegram alert](screenshots/telegram.png)
+![Telegram alert](telegram.png)
 
 ## Challenges I solved
 - **API timeouts** – lowered the model's thinking level, trimmed the email input with `substring`, and switched to a faster model.
@@ -47,7 +47,7 @@ Make.com · Google Gemini API · Gmail · Google Sheets · Telegram Bot API
 
 ## Files
 - `blueprint.json` – the Make scenario export (personal data removed)
-- `screenshots/` – the scenario, the tracker sheet and a Telegram alert
+- `scenario.png`, `sheet.png`, `telegram.png` – screenshots of the scenario, the tracker sheet and a Telegram alert
 
 ## Author
 Yoav Levy – Industrial Engineering & Management student, Afeka College
