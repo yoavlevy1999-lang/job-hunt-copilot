@@ -22,6 +22,20 @@ Gmail → Gemini → Iterator → Google Sheets → Filter (score ≥ 70) → Te
 
 The scenario runs once a day on a schedule.
 
+## Screenshots
+
+**The scenario in Make**
+
+![Make scenario](screenshots/scenario.png)
+
+**Job tracker in Google Sheets**
+
+![Google Sheets tracker](screenshots/sheet.png)
+
+**Telegram alert for a high-match job**
+
+![Telegram alert](screenshots/telegram.png)
+
 ## Challenges I solved
 - **API timeouts** – lowered the model's thinking level, trimmed the email input with `substring`, and switched to a faster model.
 - **Old emails** – filtered by date in the Gmail query and set the scenario's starting point.
